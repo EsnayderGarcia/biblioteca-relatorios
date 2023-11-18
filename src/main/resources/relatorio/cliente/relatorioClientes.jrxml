@@ -8,7 +8,7 @@
 	</queryString>
 	<field name="nome" class="java.lang.String"/>
 	<field name="cpf" class="java.lang.String"/>
-	<field name="dataNascimento" class="java.util.Date"/>
+	<field name="dataNascimento" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -83,7 +83,7 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cpf}]]></textFieldExpression>
 			</textField>
-			<textField pattern="dd/MM/yyyy">
+			<textField>
 				<reportElement stretchType="ElementGroupHeight" x="381" y="1" width="138" height="16" uuid="65f43f77-177e-4b76-ab5d-4d571f861342">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="61820830-7cb8-489e-93fd-6b7270f9d0e8"/>
 				</reportElement>
