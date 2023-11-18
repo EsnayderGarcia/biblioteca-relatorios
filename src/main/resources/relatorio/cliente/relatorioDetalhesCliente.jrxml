@@ -156,7 +156,7 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descricao}]]></textFieldExpression>
 			</textField>
-			<textField textAdjust="StretchHeight">
+			<textField textAdjust="StretchHeight" pattern="¤#,##0.00;¤-#,##0.00">
 				<reportElement stretchType="ElementGroupHeight" x="446" y="3" width="74" height="20" uuid="1a86a4cf-af30-4f8b-bc8d-c38c6b13dd2b">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="425a7bc8-e89a-4fc2-860a-32cf8d2f25f5"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
