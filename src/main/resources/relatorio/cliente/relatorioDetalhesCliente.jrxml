@@ -4,12 +4,13 @@
 	<parameter name="nome" class="java.lang.String"/>
 	<parameter name="cpf" class="java.lang.String"/>
 	<parameter name="dataNascimento" class="java.lang.String"/>
+	<parameter name="dataEmissao" class="java.util.Date"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
 	<field name="cargo" class="java.lang.String"/>
 	<field name="descricao" class="java.lang.String"/>
-	<field name="salario" class="java.lang.String"/>
+	<field name="salario" class="java.math.BigDecimal"/>
 	<title>
 		<band height="85" splitType="Stretch">
 			<staticText>

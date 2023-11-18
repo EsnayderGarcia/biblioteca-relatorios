@@ -1,11 +1,9 @@
 package com.snayder.relatorio.cliente;
 
-import java.util.Date;
-
 public class ClienteRelatorioDto {
     private String nome;
     private String cpf;
-    private Date dataNascimento;
+    private String dataNascimento;
 
     public String getNome() {
         return nome;
@@ -23,11 +21,11 @@ public class ClienteRelatorioDto {
         this.cpf = cpf;
     }
 
-    public Date getDataNascimento() {
+    public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 }
